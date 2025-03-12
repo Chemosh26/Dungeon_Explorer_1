@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,10 +11,17 @@ namespace DungeonExplorer
         static void Main(string[] args)
         {
             Game game = new Game();
-            game.Start();
-            Console.WriteLine("Waiting for your Implementation");
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+
+            try
+            {
+                // Attempt to start the game.
+                game.Start();
+            }
+            catch (Exception ex)
+            {
+                // Catch and display any unexpected errors.
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
         }
     }
 }
