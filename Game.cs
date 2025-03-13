@@ -46,7 +46,7 @@ namespace DungeonExplorer
         {
             while (true) // Infinite loop to keep the game running until the user quits.
             {
-                Console.Write("\nWhat do you want to do?\n*pick\n*drop\n*status\n*quit\n");
+                Console.Write("\nWhat do you want to do?\n>pick\n>drop\n>status\n>quit\n");
                 string command = Console.ReadLine().ToLower(); // Convert input to lowercase for consistency.
 
                 switch (command)
