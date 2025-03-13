@@ -7,7 +7,7 @@ namespace DungeonExplorer
         private string description;
         private string item;
 
-        // Constructor: Initializes the room with a given description and an optional item.
+        // Initializes the room with a given description and an optional item.
         public Room(string description, string item = null)
         {
             this.description = description; // Set the room description.
@@ -20,18 +20,18 @@ namespace DungeonExplorer
             return description;
         }
 
-        // Method to check if an item is present in the room.
+        // Method to get a item to the inventory
         public string GetItem()
         {
             return item;
         }
 
-        // Method to remove the item from the room and return its name.
+        // Method to remove the item from the inventory and return its name.
         public string RemoveItem()
         {
-            string temp = item; // Store the current item.
+            string removedItem = item; // Store the current item.
             item = null; // Remove the item from the room.
-            return temp; // Return the removed item.
+            return removedItem; // Return the removed item.
         }
     }
 }
