@@ -14,7 +14,7 @@ namespace DungeonExplorer
         public Game()
         {
             // Initialize the game with one room and one player
-            currentRoom = new Room("A dark and dungeon room.", "Rusty Sword");
+            currentRoom = new Room("A dark and damp dungeon room.", "Rusty Sword");
         }
 
         // Starts the game by getting the player's name and displaying the initial room state.
