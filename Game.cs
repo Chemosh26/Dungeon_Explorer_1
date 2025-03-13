@@ -46,7 +46,7 @@ namespace DungeonExplorer
         {
             while (true) // Infinite loop to keep the game running until the user quits.
             {
-                Console.Write("\nWhat do you want to do?\npick\ndrop\nstatus\nquit\n");
+                Console.Write("\nWhat do you want to do?\n*pick\n*drop\n*status\n*quit\n");
                 string command = Console.ReadLine().ToLower(); // Convert input to lowercase for consistency.
 
                 switch (command)
@@ -63,7 +63,9 @@ namespace DungeonExplorer
                         break;
 
                     case "drop": // Dropping the currently held item.
-                        Console.WriteLine(player.DropItem());
+                        {
+                            Console.WriteLine(player.DropItem());
+                        }
                         break;
 
                     case "status": // Displaying the player's status, including inventory.
