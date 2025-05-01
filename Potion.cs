@@ -1,4 +1,4 @@
-﻿namespace DungeonExplorer
+namespace DungeonExplorer
 {
     // Potion is a type of Item that restores the player's health
     public class Potion : Item
