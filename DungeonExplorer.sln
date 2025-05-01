@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonExplorer", "DungeonExplorer\DungeonExplorer.csproj", "{89D16896-E5B9-4527-B7EA-9882D29AB4D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonExplorer", "DungeonExplorer\DungeonExplorer.csproj", "{16F5196F-8EB3-435D-B10D-9355A4C54C47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89D16896-E5B9-4527-B7EA-9882D29AB4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89D16896-E5B9-4527-B7EA-9882D29AB4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89D16896-E5B9-4527-B7EA-9882D29AB4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89D16896-E5B9-4527-B7EA-9882D29AB4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F5196F-8EB3-435D-B10D-9355A4C54C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F5196F-8EB3-435D-B10D-9355A4C54C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F5196F-8EB3-435D-B10D-9355A4C54C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F5196F-8EB3-435D-B10D-9355A4C54C47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {170FF3E2-29F1-4211-8F39-7C66533E695D}
+		SolutionGuid = {09F14215-63F7-4CD5-AEAD-580468AB12F4}
 	EndGlobalSection
 EndGlobal
