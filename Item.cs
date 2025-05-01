@@ -1,4 +1,4 @@
-﻿namespace DungeonExplorer
+namespace DungeonExplorer
 {
     // Abstract base class for all collectible items (e.g., weapons, potions)
     public abstract class Item : ICollectible
