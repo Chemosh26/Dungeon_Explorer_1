@@ -26,7 +26,7 @@ namespace DungeonExplorer
             Room room5 = new Room("A dimly lit corridor with ancient runes and a huge open coffin in the middle of the room. A mummy wrapped in dusty and thick cloth sits up and growls. ", new Weapon("Bow", 15));
             Room room6 = new Room("A flooded chamber filled with echoes and a huge troll is sitting half submerged in the water with a wooden club in it's hand.", new Weapon("Dagger", 20));
             Room room7 = new Room("A fiery throe room with a majestic throne lid by fire in the middle, a dark knight emitting red auro sitting on the burning throne.", new Weapon("Hammer", 25));
-            
+
             // Add rooms to the map
             gameMap.AddRoom("Room1", room1);
             gameMap.AddRoom("Room2", room2);
@@ -64,7 +64,7 @@ namespace DungeonExplorer
             ShowRoom();
             Play(); // Start the main game loop
         }
-         
+
         public void ShowRoom()
         {
             // Show the description of the current room
