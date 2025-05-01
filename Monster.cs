@@ -1,4 +1,4 @@
-﻿namespace DungeonExplorer
+namespace DungeonExplorer
 {
     // Represents a Monster, inheriting from Creature and implementing behavior for combat
     public class Monster : Creature
