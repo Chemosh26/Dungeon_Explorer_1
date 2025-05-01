@@ -1,4 +1,4 @@
-﻿namespace DungeonExplorer
+namespace DungeonExplorer
 {
     // Interface that defines the contract for collectible items
     public interface ICollectible
