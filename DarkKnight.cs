@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace DungeonExplorer
 {
     // Represents a specific type of Monster: DarkKnight
