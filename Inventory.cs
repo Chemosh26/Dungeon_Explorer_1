@@ -1,4 +1,4 @@
-﻿namespace DungeonExplorer
+namespace DungeonExplorer
 {
     // Inventory class manages a list of items a player can carry
     public class Inventory
