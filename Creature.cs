@@ -1,4 +1,4 @@
-﻿namespace DungeonExplorer
+namespace DungeonExplorer
 {
     // Abstract base class for all creatures (e.g., Player, Monster)
     public abstract class Creature : IDamageable
