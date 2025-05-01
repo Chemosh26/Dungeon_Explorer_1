@@ -19,14 +19,14 @@ namespace DungeonExplorer
             gameMap = new GameMap();
 
             // Create rooms with descriptions and items
-            Room room1 = new Room("A dark and damp dungeon room...", new Weapon("Rusty Sword", 10));
-            Room room2 = new Room("A brightly lit room with a huge chandelier...", new Potion("Healing Potion", 25));
-            Room room3 = new Room("A mysterious cave with mist...", new Potion("Mega Health Potion", 50));
-            Room room4 = new Room("A cold cavern with icy walls...", new Weapon("Axe", 30));
-            Room room5 = new Room("A dimly lit corridor with runes...", new Weapon("Bow", 15));
-            Room room6 = new Room("A flooded chamber with a troll...", new Weapon("Dagger", 20));
-            Room room7 = new Room("A fiery throne room with a dark knight...", new Weapon("Hammer", 25));
-
+            Room room1 = new Room("A dark and damp dungeon room. Short green sneaky goblin crouching over a fire.", new Weapon("Rusty Sword", 10));
+            Room room2 = new Room("A brightly lit room with a huge chandelier. A hug vulture with two heads with blood drippng from it's beaks perked up on chandelier.", new Potion("Healing Potion", 25));
+            Room room3 = new Room("A mysterious cave with a thick lingering mist. At the back of the cave a deadly dragon within an elongated body is curled up, staring at the player.", new Potion("Mega Health Potion", 50));
+            Room room4 = new Room("A cold cavern with icy walls. A zombie with frozen flesh falling off it's body is lurking forward", new Weapon("Axe", 30));
+            Room room5 = new Room("A dimly lit corridor with ancient runes and a huge open coffin in the middle of the room. A mummy wrapped in dusty and thick cloth sits up and growls. ", new Weapon("Bow", 15));
+            Room room6 = new Room("A flooded chamber filled with echoes and a huge troll is sitting half submerged in the water with a wooden club in it's hand.", new Weapon("Dagger", 20));
+            Room room7 = new Room("A fiery throe room with a majestic throne lid by fire in the middle, a dark knight emitting red auro sitting on the burning throne.", new Weapon("Hammer", 25));
+            
             // Add rooms to the map
             gameMap.AddRoom("Room1", room1);
             gameMap.AddRoom("Room2", room2);
